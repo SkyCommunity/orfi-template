@@ -1,0 +1,201 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>SkyComm</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1257"></meta>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v6.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    nbArr = document[grpName];
+    if (nbArr)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+      nbArr[nbArr.length] = img;
+  } }
+}
+//-->
+</script>
+</head>
+<body background="images/bgcolor.gif" leftmargin="0" topmargin="0" rightmargin="0" bottommargin="0" onLoad="MM_preloadImages('images/buttons/pradzia_click.gif','images/buttons/pradzia_on.gif','images/buttons/diskusijos_click.gif','images/buttons/diskusijos_on.gif','images/buttons/ivykiai_click.gif','images/buttons/ivykiai_on.gif','images/buttons/failai_click.gif','images/buttons/failai_on.gif','images/buttons/nuorodos_click.gif','images/buttons/nuorodos_on.gif','images/buttons/help_click.gif','images/buttons/help_on.gif')">
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr>
+  </tr>
+</table>
+<table border="0" width="100%" height="100%" cellspacing="0" cellpadding="1" ><tr><td></td><td width="11" background="images/bgcolor2.gif"><img src="images/bgcolor2.gif"></td><td width="748">
+<table border="0" width="748" height="100%" align="center" cellpadding="0" cellspacing="0">
+	<tr><td background="images/top_line.gif" height="73">
+		<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+				<td width="140"><a href="http://www.skycommunity.skynet.lt"><img border="0" src="images/logo.gif"></a></td>
+				<td width="380"> </td>
+				<td width="120"><div align="right"><a href=""><img border="0" src="images/baner.gif" alt="banner"></a></div></td>
+			</tr>
+		</table>
+	</td></tr>
+	<tr><td height="22" bgcolor="#E9EBEF">
+		<table border="0" width="86%" height="100%" cellpadding="0" cellspacing="0">
+			<tr>
+				<td  width="100%" bgcolor="#FFFFFF"></td>
+			    <td><a href="javascript:;" target="_top" onClick="MM_nbGroup('down','group1','pradzia_off','images/buttons/pradzia_click.gif',1)" onMouseOver="MM_nbGroup('over','pradzia_off','images/buttons/pradzia_on.gif','images/buttons/pradzia_click.gif',1)" onMouseOut="MM_nbGroup('out')"><img src="images/buttons/pradzia_off.gif" alt="" name="pradzia_off"  height="22" border="0" onload=""></a></td>
+			    <td><a href="javascript:;" target="_top" onClick="MM_nbGroup('down','group1','diskusijos_off','images/buttons/diskusijos_click.gif',1)" onMouseOver="MM_nbGroup('over','diskusijos_off','images/buttons/diskusijos_on.gif','images/buttons/diskusijos_click.gif',1)" onMouseOut="MM_nbGroup('out')"><img src="images/buttons/diskusijos_off.gif" alt="" name="diskusijos_off" width="81" height="22" border="0" onload=""></a></td>
+			    <td><a href="javascript:;" target="_top" onClick="MM_nbGroup('down','group1','ivykiai_off','images/buttons/ivykiai_click.gif',1)" onMouseOver="MM_nbGroup('over','ivykiai_off','images/buttons/ivykiai_on.gif','images/buttons/ivykiai_click.gif',1)" onMouseOut="MM_nbGroup('out')"><img src="images/buttons/ivykiai_off.gif" alt="" name="ivykiai_off" width="82" height="22" border="0" onload=""></a></td>
+			    <td><a href="javascript:;" target="_top" onClick="MM_nbGroup('down','group1','failai_off','images/buttons/failai_click.gif',1)" onMouseOver="MM_nbGroup('over','failai_off','images/buttons/failai_on.gif','images/buttons/failai_click.gif',1)" onMouseOut="MM_nbGroup('out')"><img src="images/buttons/failai_off.gif" alt="" name="failai_off" width="80" height="22" border="0" onload=""></a></td>
+			    <td><a href="javascript:;" target="_top" onClick="MM_nbGroup('down','group1','nuorodos_off','images/buttons/nuorodos_click.gif',1)" onMouseOver="MM_nbGroup('over','nuorodos_off','images/buttons/nuorodos_on.gif','images/buttons/nuorodos_click.gif',1)" onMouseOut="MM_nbGroup('out')"><img src="images/buttons/nuorodos_off.gif" alt="" name="nuorodos_off" width="83" height="22" border="0" onload=""></a></td>
+			    <td><a href="javascript:;" target="_top" onClick="MM_nbGroup('down','group1','help_off','images/buttons/help_click.gif',1)" onMouseOver="MM_nbGroup('over','help_off','images/buttons/help_on.gif','images/buttons/help_click.gif',1)" onMouseOut="MM_nbGroup('out')"><img src="images/buttons/help_off.gif" alt="" name="help_off" width="40" height="22" border="0" onload=""></a></td>
+				<td><a href="#"><img border="0" src="images/print.gif" alt="Print"></a></td>
+				<td><a href="mailto:info@skycomm.lt"><img border="0" src="images/mail.gif" alt="Mail"></a></td>
+			</tr>
+		</table>
+	      </td>
+        </tr>
+	<tr><td>
+		<table border="0" height="100%" width="100%" cellpadding="0" cellspacing="0">
+			<tr>
+				<td bgcolor="#FFFFFF" valign="top">
+					<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  						<tr><td height="7" colspan="3"><img src="images/diskusijos_10.gif"></td></tr>
+						<tr><td><img src="images/diskusijos_12.gif"></td><td><img src="images/diskusijos_13.gif"></td><td><img src="images/diskusijos_14.gif"></td></tr>
+						<tr><td height="6" colspan="3"><img src="images/diskusijos_15.gif"></td></tr>
+					</table>
+					<div align="center"><table border="0" width="90%" cellpadding="10" cellspacing="0">
+						<tr>
+							<td>
+								<table border="2" cellpadding="0" cellspacing="0" width="100" style="border-collapse: collapse" bordercolor="#4B6EA2">
+								  <tr>
+								    <td bgcolor="#4B6EA2">&nbsp;</td>
+								    <td><img src="images/diskusijos_18.gif"></td>
+								    <td bgcolor="#4B6EA2">&nbsp;</td>
+								  </tr>
+								</table>
+							</td>
+							<td valign="top">
+								<table class="forTextsOnly2" border="0">
+									<tr>
+										<td><a href="#" class="antraste"><b>Antraste</b></a></td>
+									</tr>
+									<tr>
+										<td>tesxtatrasd asd asd fasd fasd fasdfasd asdf asd adsf adsf asdf asdfdsf asdfasdf asdf asdf adsf ad</td>
+									</tr>
+
+								</table>
+							</td>
+						</tr>
+					</table></div>
+					<div align="center"><table border="0" width="90%" cellpadding="10" cellspacing="0">
+						<tr>
+							<td>
+								<table border="2" cellpadding="0" cellspacing="0" width="100" style="border-collapse: collapse" bordercolor="#4B6EA2">
+								  <tr>
+								    <td bgcolor="#4B6EA2">&nbsp;</td>
+								    <td><img src="images/diskusijos_18.gif"></td>
+								    <td bgcolor="#4B6EA2">&nbsp;</td>
+								  </tr>
+								</table>
+							</td>
+							<td valign="top">
+								<table class="forTextsOnly2" border="0">
+									<tr>
+										<td><a href="#" class="antraste"><b>Antraste</b></a></td>
+									</tr>
+									<tr>
+										<td>tesxtatrasd asd asd fasd fasd fasdfasd asdf asd adsf adsf asdf asdfdsf asdfasdf asdf asdf adsf ad</td>
+									</tr>
+
+								</table>
+							</td>
+						</tr>
+					</table></div>
+				</td>
+				<td width="3" background="images/line.gif"><img src="images/line.gif"></td>
+				<td width="150"  valign="top"  bgcolor="#F3F3F5">
+					<table border="0" width="100%" cellpadding="0" cellspacing="0">
+						<tr><td><img src="images/d_16.gif"></td></tr>
+						<tr><td>
+							<table border="0" class="forTextsOnly" width="90%" cellpadding="2" cellspacing="0">
+								<tr><td>Slapyvardis:</td><td align="right"><input type="Text" class="body" size="13"></td></tr>
+								<tr><td>Slaptažodis:</td><td align="right"><input type="Text" class="body" size="13"></td></tr>
+								<tr><td colspan="2" align="right"><input type="image" src="images/m_pris.gif" value="prisijungti"></td></tr>
+								<tr><td colspan="2"><img src="images/dot_line.gif"></td></tr>
+								<tr><td colspan="2" nowrap><a href="#" class="papr">Priminti slaptažodį</a> <a href="#" class="oran">Registruotis</a></td></tr>		
+							</table>
+						</td></tr>
+					</table>
+					<table border="0" width="100%" cellpadding="0" cellspacing="0">
+						<tr><td><img src="images/d_16.gif"></td></tr>
+						<tr><td>
+							<table border="0" class="forTextsOnly" width="92%" cellpadding="4" cellspacing="0">
+							<tr><td><b><a href="#" class="papr">Paieška</a></b></td><td align="right"><a href="#" class="papr">Išplėstinė paieška</a></td></tr>
+							<tr><td colspan="2" align="right">
+								<table border="0" cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<td><input type="text" size="14" class="body"></td>
+										<td align="right"><input type="image" src="images/m_iesk.gif" value="ieskoti"></td>
+									</tr>
+								</table>
+							</td></tr>
+							</table>
+						</td></tr>
+					</table>
+					<table border="0" width="100%" cellpadding="0" cellspacing="0">
+						<tr><td><img src="images/d_16.gif"></td></tr>
+						<tr><td height="80">
+							<div align="center">
+								<a href=""><img border="0" src="images/baner.gif" alt="banner"></a>
+							</div>
+						</td></tr>
+						<tr><td height="80">
+							<div align="center">
+								<a href=""><img border="0" src="images/baner.gif" align="banner"></a>
+							</div>
+						</td></tr>
+					</table>
+
+				</td>
+			</tr>
+		</table>
+	</td></tr>
+</table>
+</td><td width="11" background="images/bgcolor2.gif"><img src="images/bgcolor2.gif"></td><td></td></tr></table>
+</body>
+</html>
