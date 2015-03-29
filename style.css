@@ -1,0 +1,55 @@
+/* CSS Document */
+.forTextsOnly2 {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #3C5A88;
+	line-height: 15px;
+	text-align: left;
+}
+a.antraste {
+	color: #FF9600;
+	font-size: 15px;
+	line-height: 15px;
+	text-align: left;
+	text-decoration: none;
+}
+a.oran {
+	color: #FF9600;
+	line-height: 15px;
+	text-align: left;
+	text-decoration: none;
+}
+a.papr {
+	color: #3C5A88;
+	text-align: left;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #3C5A88;
+	line-height: 15px;
+	text-align: left;
+	border-top: dotted 1px black;
+	border-right: dotted 1px black;
+	border-bottom: dotted 1px black;
+	border-left: dotted 1px black;
+	background-color: #F2F2F2;
+
+}
+.forTextsOnly {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #3C5A88;
+	line-height: 15px;
+	text-align: left;
+}
+.body {
+	border: 1px inset #3C5A88;
+	border: 1px outset #3C5A88;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
